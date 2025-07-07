@@ -1,0 +1,432 @@
+{
+  "id": "3628d3f4-f97b-4732-8ea1-54af1b577dc4",
+  "version": "2.0",
+  "name": "Review",
+  "url": "http://localhost:5173/user/myticket",
+  "tests": [{
+    "id": "c58d478b-2e4b-465f-b914-45f704e6a3c3",
+    "name": "Create_Review",
+    "commands": [{
+      "id": "fe7dbdd9-e992-45ce-9eeb-4bf34f9f3fe1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/user/myticket",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84c5f22c-7b6f-448f-b53f-7ff0f7b83417",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca3c2848-ceac-45f6-b663-1d08606fa204",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-create",
+      "targets": [
+        ["css=.button-create", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5244e602-cf9b-4fae-8248-6e1a892cdd83",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\lion.jpg"
+    }, {
+      "id": "d46506ec-24a8-46e6-8e81-14091714c01a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ant-modal-footer > .ant-btn-primary",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5145f234-e481-4c50-8e39-6b4aeed3b76d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > label path",
+      "targets": [
+        ["css=div:nth-child(4) > label path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd476b2-26cb-40f8-aa0a-e5469e6b8e5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e94433-d157-4266-9c75-598d1512bbdd",
+      "comment": "",
+      "command": "type",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "The Lion is Good"
+    }, {
+      "id": "a1f54c35-c681-4c29-88ae-acb9d6f903ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "201283e7-feb7-49e3-b51d-5320388661ac",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'การรีวิวสำเร็จเเล้ว')]", "xpath:innerText"]
+      ],
+      "value": "การรีวิวสำเร็จเเล้ว"
+    }]
+  }, {
+    "id": "5e93409a-d527-42a6-b36e-d1d73dba9598",
+    "name": "CreateInvalid-Review-Picture",
+    "commands": [{
+      "id": "d040107d-94b0-4988-976b-7c11e1de7dca",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/user/myticket",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45d0146e-3187-4214-94a4-4966f7c38bd5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1905b95e-2743-45f8-abc1-272f40eca31d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-create",
+      "targets": [
+        ["css=.button-create", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8a7720-aaad-4e5c-a0c2-a666adeedf78",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > label path",
+      "targets": [
+        ["css=div:nth-child(4) > label path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d101440a-31a8-46db-964d-106ced885ff3",
+      "comment": "",
+      "command": "click",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636567d3-ffc2-445c-8773-0e3ce44401c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Good"
+    }, {
+      "id": "60f24dfc-45a2-4409-8b83-b60ef8c01418",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload",
+      "targets": [
+        ["css=.ant-upload > .ant-upload", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div/div/div[2]/div/div/span/div/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67495852-362b-41e2-977e-a3dedb83478c",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\vlidatePicture.txt"
+    }, {
+      "id": "980c41aa-6a55-440c-bcc5-56368e63f6df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-footer > .ant-btn-primary",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "822f94f7-60ab-412d-b8e5-63765732100f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'กรุณาอัปโหลดไฟล์รูปภาพ')]", "xpath:innerText"]
+      ],
+      "value": "กรุณาอัปโหลดไฟล์รูปภาพ"
+    }]
+  }, {
+    "id": "a8de2ac7-2181-43ce-9840-69f154762859",
+    "name": "CreateInvalid-Review-Rating",
+    "commands": [{
+      "id": "fcca3b9c-89c8-4c0f-b6e2-1fd66db493f0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/user/myticket",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b581624-c7a6-4559-952e-7b050800e6d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2f44a2-493c-410c-b0ae-198a12be32f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-create",
+      "targets": [
+        ["css=.button-create", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2becc381-0c15-4c63-bcdc-b9faef276f03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload",
+      "targets": [
+        ["css=.ant-upload > div", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div/div/div[2]/div/div/span/div/div/span/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1a331b5-f849-48de-b298-71edda000098",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\lion.jpg"
+    }, {
+      "id": "e3b284a0-a9e8-4654-9cbb-0c4c1440810a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ant-modal-footer > .ant-btn-primary",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "520636ba-d8cd-4a14-91ca-f744699ee14d",
+      "comment": "",
+      "command": "click",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c4da2b-2c1a-429d-9c94-d193e5ea7c9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=reviewForm_Comment",
+      "targets": [
+        ["id=reviewForm_Comment", "id"],
+        ["css=#reviewForm_Comment", "css:finder"],
+        ["xpath=//textarea[@id='reviewForm_Comment']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[3]/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "The Lion is Good"
+    }, {
+      "id": "80c6563c-4ee6-4201-8445-a36dd95e2dfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7547117f-4f4a-4bb5-8b63-32e45246ca0f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'กรุณาให้คะแนนสวนสัตว์')]", "xpath:innerText"]
+      ],
+      "value": "กรุณาให้คะแนนสวนสัตว์"
+    }]
+  }, {
+    "id": "0d040c84-f9f8-4514-ae51-e89f0975e9f8",
+    "name": "CreateInvalid-Review-Comment",
+    "commands": [{
+      "id": "eec97c50-e127-44f0-9b29-f125eb8e5de1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/user/myticket",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1447c8a0-c00f-4c89-aa8d-f0d8b5407792",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbfce180-7e2e-4fea-9eea-ca282ac6ba22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-create",
+      "targets": [
+        ["css=.button-create", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4151fb43-4705-4198-9700-22f1d16ae30f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload",
+      "targets": [
+        ["css=.ant-upload > .ant-upload", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div/div/div[2]/div/div/span/div/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c87b81d-c3ad-4f60-bf08-d7d4e89843da",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\lion.jpg"
+    }, {
+      "id": "ad72e193-76a9-4258-acbf-73c195c854d6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ant-modal-footer > .ant-btn-primary",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb4f72b-57d2-4d84-ae2f-955a6038154a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > label path",
+      "targets": [
+        ["css=div:nth-child(4) > label path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "146afac4-31e3-46c8-8da9-a6937b7df420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c53164-c718-4cc3-a969-bf83301942cd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'กรุณากรอกข้อมูลรีวิว')]", "xpath:innerText"]
+      ],
+      "value": "กรุณากรอกข้อมูลรีวิวให้ถูกต้อง"
+    }]
+  }],
+  "suites": [{
+    "id": "787215cb-19b9-4e3e-98eb-f635982e1aa3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:5173/", "http://localhost:5173/zookeeper/create-animal", "http://localhost:5173/user/myticket"],
+  "plugins": []
+}

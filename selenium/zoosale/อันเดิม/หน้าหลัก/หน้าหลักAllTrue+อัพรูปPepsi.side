@@ -1,0 +1,192 @@
+{
+  "id": "c1858f91-c1d6-4869-85c2-34266e42af0c",
+  "version": "2.0",
+  "name": "UATหน้าหลัก",
+  "url": "http://localhost:5173/zoosale/managezooshop",
+  "tests": [{
+    "id": "5c691ffb-39a3-47aa-9fea-2ddc37a9bb00",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b8e9d122-c911-453e-8d99-a6a9ba651d78",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/managezooshop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cd6754f-1690-487b-aa4e-cfe99c53189c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcfffecb-0a75-41b6-9458-0e31a465f69b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-row:nth-child(2) .ant-btn:nth-child(1) svg",
+      "targets": [
+        ["css=.ant-table-row:nth-child(2) .ant-btn:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f983bf4-b05a-42de-93d8-12cc7eae3785",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [
+        ["css=.ant-upload > .ant-upload", "css:finder"],
+        ["xpath=//span/div/div/span", "xpath:position"]
+      ],
+      "value": "C:\\Users\\aut\\Desktop\\UAT\\pepsi.jpg"
+    }, {
+      "id": "6ba7b3a3-1989-40ee-90e0-77c510545ba9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c08e04e-4420-411d-8fc4-03170aa956d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d909b7b7-ae3b-4d79-8329-c4394084e1ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "pepsi"
+    }, {
+      "id": "18d10ac6-c53d-4ab6-9a21-b3a3bd9e703b",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_priceproduct",
+      "targets": [
+        ["id=DataStockProduct_priceproduct", "id"],
+        ["css=#DataStockProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dccdd60-cd1c-42c5-b52e-6a0d98c3a53f",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_priceproduct",
+      "targets": [
+        ["id=DataStockProduct_priceproduct", "id"],
+        ["css=#DataStockProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "24.36"
+    }, {
+      "id": "66e62136-3bf5-4df3-b652-0775f991fac5",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71188750-8c33-4404-ae52-d9ab500b2cb5",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "125"
+    }, {
+      "id": "4a86e950-987d-4f71-af27-631078a314e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_barcodeproduct",
+      "targets": [
+        ["id=DataStockProduct_barcodeproduct", "id"],
+        ["css=#DataStockProduct_barcodeproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcodeproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a104cc9-be24-4e1f-ac3f-0cda8c0b55a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcodeproduct",
+      "targets": [
+        ["id=DataStockProduct_barcodeproduct", "id"],
+        ["css=#DataStockProduct_barcodeproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcodeproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "885885285"
+    }, {
+      "id": "a61648f6-72dd-49dd-9bc0-3557ebb43848",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(7) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(7) > span", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "887c2832-b838-43be-b0c4-4ae39d4b4507",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Product updated successfully')]", "xpath:innerText"]
+      ],
+      "value": "Product updated successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "e74fd5e7-29b2-46ac-9c9e-f58bcf123509",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c691ffb-39a3-47aa-9fea-2ddc37a9bb00"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/managezooshop"],
+  "plugins": []
+}

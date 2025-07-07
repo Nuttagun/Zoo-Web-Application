@@ -1,0 +1,157 @@
+.Vet-Analysis-vet-dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f8f9fa);
+}
+.vet-content-dashboard-analysis {
+  border-radius: 40px;
+  padding: 30px;
+  background-color: #e2ccb6;
+}
+.Vet-Analysis-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  max-width: 100%;
+}
+
+.Vet-Analysis-header {
+  margin-bottom: 2.5rem;
+}
+
+.Vet-Analysis-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #895e3c, #895e3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+.Vet-Analysis-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Vet-Analysis-chart-container {
+  background: #ffe3bc;
+  border-radius: 60px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(188, 72, 0, 0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.Vet-Analysis-chart-container h2 {
+  margin-bottom: 1.5rem;
+  color: #895e3c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Vet-Analysis-bio-summary {
+  background: #ffe3bc;
+  border-radius: 60px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(188, 72, 0, 0.5);
+}
+
+.Vet-Analysis-bio-summary h2 {
+  color: #895e3c;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.Vet-Analysis-bio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.Vet-Analysis-bio-card {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.Vet-Analysis-bio-card h3 {
+  color: #895e3c;
+  margin-bottom: 0.5rem;
+}
+
+.Vet-Analysis-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.Vet-Analysis-stat-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  color: white;
+}
+
+.Vet-Analysis-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.Vet-Analysis-stat-card.total {
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  box-shadow: 0 4px 20px rgba(36, 225, 235, 0.5);
+}
+
+.Vet-Analysis-stat-card.normal {
+  background: linear-gradient(135deg, #82ca9d, #57bd77);
+  box-shadow: 0 4px 20px rgba(36, 235, 79, 0.5);
+}
+
+.Vet-Analysis-stat-card.sick {
+  background: linear-gradient(135deg, #ff8042, #ff6b4a);
+  box-shadow: 0 4px 20px rgba(235, 86, 36, 0.5);
+}
+
+.Vet-Analysis-stat-card p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.Vet-Analysis-stat-card strong {
+  display: block;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .Vet-Analysis-content {
+    padding: 1rem;
+  }
+
+  .Vet-Analysis-header h1 {
+    font-size: 2rem;
+  }
+
+  .Vet-Analysis-chart-container {
+    padding: 1rem;
+  }
+
+  .Vet-Analysis-chart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Vet-Analysis-bio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .Vet-Analysis-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}

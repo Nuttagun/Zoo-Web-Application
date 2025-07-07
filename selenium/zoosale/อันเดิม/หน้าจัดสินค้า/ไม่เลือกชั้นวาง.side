@@ -1,0 +1,123 @@
+{
+  "id": "82e6e0c5-c2fa-43ef-9aac-e58773eed4e5",
+  "version": "2.0",
+  "name": "UATหน้าจัดสินค้า",
+  "url": "http://localhost:5173/zoosale/organizeproduct",
+  "tests": [{
+    "id": "f42a5b65-1dd0-47db-9842-bd83dfcd1bfc",
+    "name": "หกหก",
+    "commands": [{
+      "id": "b9e4cdcb-d2c4-4d67-9b42-87a09df6a826",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/organizeproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44044522-9b31-480b-bd17-698219bc032f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d13f919-ef0d-471a-a079-4e98a2469e1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-cell-row-hover p",
+      "targets": [
+        ["css=.ant-table-cell-row-hover p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div[2]/table/tbody/tr[2]/td[6]/button/p", "xpath:idRelative"],
+        ["xpath=//td[6]/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'จัดเข้าชั้นวาง')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f8f5e8-7b0c-4382-83b2-953fdd3cb5f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataOganizeProduct_priceproduct",
+      "targets": [
+        ["id=DataOganizeProduct_priceproduct", "id"],
+        ["css=#DataOganizeProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataOganizeProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataOganizeProduct']/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4a3c35-083a-4723-8f3d-c171ab820581",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataOganizeProduct_priceproduct",
+      "targets": [
+        ["id=DataOganizeProduct_priceproduct", "id"],
+        ["css=#DataOganizeProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataOganizeProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataOganizeProduct']/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "40.17"
+    }, {
+      "id": "dd4fe032-af11-4e3c-8ec3-ad2c5f041fe7",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataOganizeProduct_quantityShelf",
+      "targets": [
+        ["id=DataOganizeProduct_quantityShelf", "id"],
+        ["css=#DataOganizeProduct_quantityShelf", "css:finder"],
+        ["xpath=//input[@id='DataOganizeProduct_quantityShelf']", "xpath:attributes"],
+        ["xpath=//form[@id='DataOganizeProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f98f2f-6962-46d4-adbb-add734d66dad",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataOganizeProduct_quantityShelf",
+      "targets": [
+        ["id=DataOganizeProduct_quantityShelf", "id"],
+        ["css=#DataOganizeProduct_quantityShelf", "css:finder"],
+        ["xpath=//input[@id='DataOganizeProduct_quantityShelf']", "xpath:attributes"],
+        ["xpath=//form[@id='DataOganizeProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "fdcc9180-438f-4802-9761-0281af9d58e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(6)",
+      "targets": [
+        ["css=.ant-btn:nth-child(6)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataOganizeProduct']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b1ef2d-c4c1-47ab-add4-699b1d1de3e9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-form-item-explain-error",
+      "targets": [
+        ["css=.ant-form-item-explain-error", "css:finder"],
+        ["xpath=//div[@id='DataOganizeProduct_shelfid_help']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "กรุณาเลือกชั้นวาง"
+    }]
+  }],
+  "suites": [{
+    "id": "eb87731d-5482-4028-82d1-c716f4eba4fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f42a5b65-1dd0-47db-9842-bd83dfcd1bfc"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/organizeproduct"],
+  "plugins": []
+}

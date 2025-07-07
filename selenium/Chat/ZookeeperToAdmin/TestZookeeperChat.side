@@ -1,0 +1,173 @@
+{
+  "id": "b1f8e620-6f08-453b-8ebf-0d258dedaa0c",
+  "version": "2.0",
+  "name": "TestZookeeperChat",
+  "url": "http://localhost:5173",
+  "tests": [{
+    "id": "7c5e51dd-4574-4ccc-ba8e-83c8ef9a980b",
+    "name": "AllPass",
+    "commands": [{
+      "id": "fc2a686f-e596-410f-a76a-43869579e207",
+      "comment": "",
+      "command": "open",
+      "target": "/zookeeper/zookeeper_chat",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c9ca34a-d07c-4710-aef0-2f10f29939cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1555x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dded5f3d-2ea1-49f2-8fb0-e4cd8f81a31c",
+      "comment": "",
+      "command": "click",
+      "target": "id=basic_massage",
+      "targets": [
+        ["id=basic_massage", "id"],
+        ["css=#basic_massage", "css:finder"],
+        ["xpath=//input[@id='basic_massage']", "xpath:attributes"],
+        ["xpath=//form[@id='basic']/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a35ccd-cca7-4147-8bac-92e65c5fba34",
+      "comment": "",
+      "command": "type",
+      "target": "id=basic_massage",
+      "targets": [
+        ["id=basic_massage", "id"],
+        ["css=#basic_massage", "css:finder"],
+        ["xpath=//input[@id='basic_massage']", "xpath:attributes"],
+        ["xpath=//form[@id='basic']/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "เทสส่งข้อความ"
+    }, {
+      "id": "767628a1-da72-4f78-9d44-633626548111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea24f4f4-20c9-43f0-a10c-2bcad270116e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b108a1c-61fb-48ed-ad4d-436ec4113c84",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e9325f2-a495-4b41-a841-390a5ef22a75",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความสำเร็จ!')]", "xpath:innerText"]
+      ],
+      "value": "ส่งข้อความสำเร็จ!"
+    }]
+  }, {
+    "id": "2ef714d2-086a-4bf1-a8cb-fe7ebe959f23",
+    "name": "Invalid_Input_Massage",
+    "commands": [{
+      "id": "5f941807-35ae-4614-bad9-d9532de3e1dc",
+      "comment": "",
+      "command": "open",
+      "target": "/zookeeper/zookeeper_chat",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbbff996-f6ba-49e3-a5b4-b5dd0dedc53a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1555x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5eeff04-d104-4644-9e3b-a25c0c35762c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c44a2b1-403e-465f-94f3-a57310ea934d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd0f076d-8b0d-4551-aec9-91b5c82e0873",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//form[@id='basic']/div/div[2]/div/div/div/div/div/center/button/span", "xpath:idRelative"],
+        ["xpath=//center/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ส่งข้อความ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9760ab27-edc9-4350-9c3f-3ed4effc5ee4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-form-item-explain-error",
+      "targets": [
+        ["css=.ant-form-item-explain-error", "css:finder"],
+        ["xpath=//div[@id='basic_massage_help']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "กรุณากรอกข้อความ!"
+    }]
+  }],
+  "suites": [{
+    "id": "62255375-84a1-49e3-9eca-8521b177e20d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7c5e51dd-4574-4ccc-ba8e-83c8ef9a980b"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}

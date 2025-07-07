@@ -1,0 +1,56 @@
+.custom-menu .ant-menu-item:hover {
+    background-color: #8bbf49 !important; /* สีเมื่อ Hover */
+  }
+  
+  .custom-menu .ant-menu-item-selected {
+    background-color: #fabb18 !important; /* สีเมื่อถูกเลือก */
+    color: #fff !important; /* สีข้อความ */
+  }
+  
+  .custom-menu {
+    --antd-wave-shadow-color: #fabb18; /* สี Wave */
+  }
+
+  .custom-menu .ant-menu-submenu {
+    background-color: #5a7547; /* สีพื้นหลังของเมนูลูก */
+    color: #fff; /* สีข้อความ */
+  }
+
+  .custom-menu .ant-menu-submenu-title:hover {
+    background-color: #8bbf49; /* สีพื้นหลังเมื่อ Hover */
+    color: #000; /* สีข้อความเมื่อ Hover */
+  }
+
+  .logoutbutton:hover {
+    border-color: #ffd54f !important; /* สีเส้นขอบเมื่อ Hover */
+    background-color: #ffd54f !important; /* สีพื้นหลังเมื่อ Hover */
+    color: #000 !important; /* สีข้อความเมื่อ Hover */
+  }
+
+  /* เปลี่ยนสีพื้นหลังเมนูลูก (SubMenu) */
+.custom-menu .ant-menu-submenu {
+    background-color: #5a7547 !important; /* สีพื้นหลังของเมนูลูก */
+  }
+  
+  /* เปลี่ยนสีของชื่อเมนูย่อย (SubMenu title) เมื่อ Hover */
+  .custom-menu .ant-menu-submenu-title:hover {
+    background-color: #8bbf49 !important; /* สีพื้นหลังเมื่อ Hover */
+    color: #5a7547 !important; /* สีข้อความเมื่อ Hover */
+  }
+  
+  /* เปลี่ยนสีของชื่อเมนูย่อย (SubMenu title) เมื่อถูกเลือก */
+  .custom-menu .ant-menu-submenu-title.ant-menu-submenu-title-selected {
+    background-color: #fabb18 !important; /* สีพื้นหลังเมื่อเลือก */
+    color: #5a7547 !important; /* สีข้อความเมื่อเลือก */
+  }
+  
+  /* เปลี่ยนสีของข้อความในเมนูย่อย (SubMenu) */
+  .custom-menu .ant-menu-submenu .ant-menu-item {
+    color: #fff !important; /* สีข้อความ */
+  }
+  
+  /* เปลี่ยนสีเมื่อ Hover เมนูย่อย */
+  .custom-menu .ant-menu-submenu .ant-menu-item:hover {
+    background-color: #8bbf49 !important; /* สีพื้นหลังเมื่อ Hover */
+    color: #000 !important; /* สีข้อความเมื่อ Hover */
+  }

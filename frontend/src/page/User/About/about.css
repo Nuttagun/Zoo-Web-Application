@@ -1,0 +1,138 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --boxShadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+}
+
+.mainContent {
+  display: flex !important; 
+  flex-direction: row !important; 
+  gap: 2rem !important; 
+  justify-content: center !important; 
+  align-items: center !important; 
+  flex-wrap: nowrap !important; 
+  width: 100%; 
+}
+
+.singleItem {
+  text-align: center !important; 
+  flex: 1 1 300px !important;
+  max-width: 300px !important; 
+  margin: 0 !important; 
+}
+
+.singleItem img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.about .secContainer .title {
+  color: var(--blackColor);
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.about .secContainer .mainContent {
+  gap: 1rem;
+}
+
+.about .secContainer .mainContent .singleItem {
+  text-align: center;
+}
+
+.about .secContainer .mainContent .singleItem img {
+  width: 150px;
+  height: 137px;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.about .secContainer .mainContent .singleItem h3 {
+  font-weight: 700;
+  color: var(--blackColor);
+  padding: 0.5rem;
+}
+
+.about .secContainer .mainContent .singleItem p {
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  color: var(--textColor);
+}
+
+.about .secContainer .videoCard {
+  margin-top: 2rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.609)), url(../../../assets/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .secContainer .videoCard .cardContent {
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.about .secContainer .videoCard .cardContent .cardText h2 {
+  color: var(--whiteColor);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.about .secContainer .videoCard .cardContent .cardText p {
+  color: var(--whiteColor);
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.about .secContainer .videoCard .cardVideo {
+  border: 2px solid var(--whiteColor);
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.about .secContainer .videoCard .cardVideo video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 720px) {
+  .about .secContainer .videoCard .cardContent {
+    gap: 4rem;
+    padding: 4rem 3rem;
+  }
+
+  .about .secContainer .videoCard .cardContent .cardText h2 {
+    font-size: 2rem;
+  }
+
+  .about .secContainer .videoCard .cardContent .cardText p {
+    opacity: 0.7;
+    font-size: 15px;
+  }
+
+  .about .secContainer .videoCard .cardContent {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about .secContainer .mainContent {
+    padding: 2.5rem 0;
+  }
+}

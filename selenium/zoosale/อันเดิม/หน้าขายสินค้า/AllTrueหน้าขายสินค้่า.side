@@ -1,0 +1,226 @@
+{
+  "id": "c1858f91-c1d6-4869-85c2-34266e42af0c",
+  "version": "2.0",
+  "name": "UATหน้าหลัก",
+  "url": "http://localhost:5173/zoosale/saleproduct",
+  "tests": [{
+    "id": "5c691ffb-39a3-47aa-9fea-2ddc37a9bb00",
+    "name": "Untitled",
+    "commands": [{
+      "id": "32bd05c0-4f51-473d-821c-ab991a191f04",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/saleproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8ecce56-0e7d-4ddd-b6e0-0c398884bfe0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "280e38a3-e514-4946-90c6-c8ec60cb8ed0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/span/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24ec74c-2e80-4396-8702-66afddbadaa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-lg > span",
+      "targets": [
+        ["css=.ant-btn-lg > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/span/span/span/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f088d4f7-099e-4dd5-82de-b481a3f58574",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='221dcd']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/span/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "221dcd"
+    }, {
+      "id": "0d3a0e30-e8eb-40a0-a7ec-3275173704dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-lg",
+      "targets": [
+        ["css=.ant-btn-lg", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/span/span/span/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ค้นหา')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b22471-66e4-4308-8ba5-8a04428bf38c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input-number-input",
+      "targets": [
+        ["css=.ant-input-number-input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/table/tbody/tr/td[5]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48f4ebf-32b2-4b62-bbb9-194b2882cbef",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input-number-input",
+      "targets": [
+        ["css=.ant-input-number-input", "css:finder"],
+        ["xpath=//input[@value='5']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/table/tbody/tr/td[5]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "303b0f78-9c92-49a0-9ed2-29bbfe6f5858",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(7)",
+      "targets": [
+        ["css=.ant-btn:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'โอนจ่าย')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d997ca-19ef-47c2-a45d-08939ef4c9be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(7)",
+      "targets": [
+        ["css=.ant-btn:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'โอนจ่าย')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4e21c7-28a8-4ebc-b18c-effe1e4b955b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(7)",
+      "targets": [
+        ["css=.ant-btn:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'โอนจ่าย')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99b7ce6-60b1-432d-85d8-e7d9ef4a3231",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(4) > p",
+      "targets": [
+        ["css=.ant-btn:nth-child(4) > p", "css:finder"],
+        ["xpath=//div/div/div/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "199f385c-44db-4a38-b5df-4a2775ad82ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(4) > p",
+      "targets": [
+        ["css=.ant-btn:nth-child(4) > p", "css:finder"],
+        ["xpath=//div/div/div/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d25c7a1-7d9a-49e4-ab1a-aa99f9fba1a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(4) > p",
+      "targets": [
+        ["css=.ant-btn:nth-child(4) > p", "css:finder"],
+        ["xpath=//div/div/div/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f6acc6-6636-4db0-8749-43d4143eeaa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f608cb3-147a-4470-962e-25124ee18229",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ccd7196-6c30-42f1-8dcf-c7d80cb0a2f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f97a8d-eb80-41b3-ad10-da79b6330a91",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Transaction completed successfully')]", "xpath:innerText"]
+      ],
+      "value": "Transaction completed successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "e74fd5e7-29b2-46ac-9c9e-f58bcf123509",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c691ffb-39a3-47aa-9fea-2ddc37a9bb00"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/managezooshop", "http://localhost:5173/zoosale/saleproduct"],
+  "plugins": []
+}

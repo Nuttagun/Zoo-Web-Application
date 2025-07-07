@@ -1,0 +1,127 @@
+{
+  "id": "3f4a730c-3d1a-4c6b-aac7-0bbfcb4868fa",
+  "version": "2.0",
+  "name": "SEweek9",
+  "url": "http://localhost:5173",
+  "tests": [{
+    "id": "1b3cbfcd-93c3-415e-beb2-f7dfb7a174d2",
+    "name": "จัดชั้นวาง",
+    "commands": [{
+      "id": "30bf37ef-cf87-40e8-b182-343c6268030e",
+      "comment": "",
+      "command": "open",
+      "target": "/zoosale/receiveproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd36d318-f377-4fd7-92d0-6851fa07a3bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ea98afc-61db-41e2-8053-00446904ea60",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(7) p",
+      "targets": [
+        ["css=a:nth-child(7) p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/a[5]/button/p", "xpath:idRelative"],
+        ["xpath=//a[5]/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'ปรับแต่งชั้นวาง')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c46b91-d426-4870-85a0-1542c186f665",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28ad2685-309d-4538-b1cb-98d79ee64db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "059a23ba-dc54-466b-9d4d-0b25d3839f2d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='jsdhjhdsj']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jsdhjhdsj"
+    }, {
+      "id": "3edd329c-11bb-4825-a22d-c3dc81fb5546",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e67fb7e-a6cb-4cdd-b5ec-502a4eff741e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(2)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'บันทึกข้อมูล')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28ab0ae1-fb7e-4f4e-a466-a0231197aea1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span:nth-child(2)",
+      "targets": [
+        ["css=span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shelf zone data processed successfully')]", "xpath:innerText"]
+      ],
+      "value": "Shelf zone data processed successfully"
+    }, {
+      "id": "3231759a-8eea-45e4-b3a4-a2e6a3529ff7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dd70c6c7-a54b-4327-9d27-3f3c53b26cc6",
+    "name": "Untitled (1)",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "6e52ec6d-7021-415e-b6e1-ae16e71f0bcc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b3cbfcd-93c3-415e-beb2-f7dfb7a174d2"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}

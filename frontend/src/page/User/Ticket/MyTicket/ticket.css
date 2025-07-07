@@ -1,0 +1,179 @@
+.loccal-container-ticket {
+  display: flex;
+  margin-left: 150px;
+}
+
+.back-container-ticket {
+  border-radius: 45px;
+  box-shadow: 5px 5px 15px #2e271f75;
+  border: 1px solid #2e271f;
+  height: 200px;
+  width: 700px;
+}
+
+.container-ticket {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  height: 230px;
+  margin-right: auto;
+}
+
+.flex-ticket {
+  display: flex;
+}
+
+.wild-body-left-1-ticket {
+  padding: 20px;
+  width: 377.5px;
+  height: 200px;
+  background-color: #fff0a6;
+  border-radius: 40px 0px 0px 40px;
+  border: 3.5px solid #2e271f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.wild-body-left-2-ticket {
+  position: relative;
+  padding: 5px;
+  width: 377.5px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zone-name-ticket {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  color: #2e5a45;
+  text-shadow: 1px 2px 2px #2e271f;
+}
+
+.ticket-text-ticket {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 0;
+  color: #2e5a45;
+  text-shadow: 1px 1px 2px #2e271f;
+}
+
+.date-ticket {
+  position: absolute;  /* ทำให้ติดขอบล่าง */
+  bottom: 10px;        /* ปรับระยะห่างจากขอบล่าง */
+  left: 50%;
+  transform: translateX(-50%); /* ทำให้วันที่อยู่ตรงกลาง */
+  font-size: 14px;
+  color: #2e5a45;
+  white-space: nowrap;
+}
+
+.text-ticket {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: -5px;
+  color: #b25900;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.line-ticket {
+  border: none;
+  border-top: 1px solid #2e271f;
+  width: 105%;
+  margin: 5px auto;
+}
+
+.logo-container-ticket {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-background-ticket {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: #2e271f;
+  z-index: 1;
+}
+
+.logo-ticket {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #B96B00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #FED400;
+  z-index: 2;
+}
+
+.logo-ticket img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.wild-body-right-ticket {
+  padding: 10px;
+  width: 122.5px;
+  height: 200px;
+  background-color: #895e3c;
+  border-radius: 0px 40px 40px 0px;
+  border: 3.5px solid #2e271f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-of-allpeople-ticket {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #fed400;
+  -webkit-text-stroke: 3px #2e271f;
+}
+
+.people-text-ticket {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 0;
+  color: #2e271f;
+}
+
+.ticket-price-ticket {
+  margin-top: auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: #fff0a6;
+  text-shadow: 2px 2px 4px #2e271f;
+}

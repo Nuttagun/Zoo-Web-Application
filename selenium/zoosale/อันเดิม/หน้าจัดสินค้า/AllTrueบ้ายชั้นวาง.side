@@ -1,0 +1,91 @@
+{
+  "id": "82e6e0c5-c2fa-43ef-9aac-e58773eed4e5",
+  "version": "2.0",
+  "name": "UATหน้าจัดสินค้า",
+  "url": "http://localhost:5173/zoosale/organizeproduct",
+  "tests": [{
+    "id": "f42a5b65-1dd0-47db-9842-bd83dfcd1bfc",
+    "name": "หกหก",
+    "commands": [{
+      "id": "e85299a2-767d-47df-aba2-f101165b787b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/organizeproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "988c7786-1df5-4175-8eec-3ebb28886186",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3580769c-2e84-4722-b084-59aa608a275d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2) > p",
+      "targets": [
+        ["css=.ant-btn:nth-child(2) > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div[2]/table/tbody/tr[2]/td[6]/button[2]/p", "xpath:idRelative"],
+        ["xpath=//button[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'ย้ายชั้นวาง')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d9f168-aff2-49d7-9dc0-6f0ab8079317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-selection-item",
+      "targets": [
+        ["css=.ant-select-selection-item", "css:finder"],
+        ["xpath=//form[@id='DataMoveProduct']/div/div/div[2]/div/div/div/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27338dd5-7bd6-496c-8129-aa6c93dde18b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cb3448-a6dd-4e56-9476-8d7af1ab64ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn > span",
+      "targets": [
+        ["css=.ant-btn > span", "css:finder"],
+        ["xpath=//form[@id='DataMoveProduct']/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4bc209-5643-4ae2-8676-10f2c572fd0c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Product shelf zone updated successfully')]", "xpath:innerText"]
+      ],
+      "value": "Product shelf zone updated successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "eb87731d-5482-4028-82d1-c716f4eba4fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f42a5b65-1dd0-47db-9842-bd83dfcd1bfc"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/organizeproduct"],
+  "plugins": []
+}

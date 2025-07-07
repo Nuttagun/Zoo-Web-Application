@@ -1,0 +1,356 @@
+{
+  "id": "42bfeafc-a69f-42e6-b9e5-6bb3689f96c3",
+  "version": "2.0",
+  "name": "SEweek9",
+  "url": "http://localhost:5173/",
+  "tests": [{
+    "id": "840a3475-a9bd-4aab-b42b-3c5cac6a1ff4",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5bec260d-f3b5-49bd-98d9-b7db8f7eeaf5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9e4a1f0-2f19-40ce-8988-9790fe460a10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "940cdaa4-48f5-47c9-900d-3ac5d62cb83e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .ant-btn",
+      "targets": [
+        ["css=div:nth-child(2) > .ant-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[6]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47496b1c-9c25-4949-a6b9-37cc57bac329",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > .ant-btn",
+      "targets": [
+        ["css=div:nth-child(2) > .ant-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[6]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a883c27-718e-49a3-a393-1703a3bf4800",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7fd5c3b-bf0f-4500-a8fe-d13a0b95ebeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e1c9b6-72e9-46bf-985b-7df2c79321a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-cell-hover > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-cell-hover > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[5]/td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed0db0d8-bd12-49aa-b7d3-9969f678af86",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) button:nth-child(3) > span",
+      "targets": [
+        ["css=div:nth-child(5) button:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecf0e414-2f5d-4df2-aa6c-e651b4be4a74",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) button:nth-child(3) > span",
+      "targets": [
+        ["css=div:nth-child(5) button:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0167437-eaa7-4afc-9e49-4ee60c880615",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(5) button:nth-child(3) > span",
+      "targets": [
+        ["css=div:nth-child(5) button:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca4eb05-88e4-4f2e-afff-7a9630a06823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0aedb1f-431e-4abd-aaa2-92e78f895cd7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d4f8b9-89af-43b6-8096-5ca7b25ba153",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/button/span", "xpath:idRelative"],
+        ["xpath=//body/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92ab674a-1603-4044-8bd5-bf4b7f34fb05",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "614ad7f3-8d1f-429a-adbf-c15153e45ee7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col:nth-child(1) > div > div > .ant-btn",
+      "targets": [
+        ["css=.ant-col:nth-child(1) > div > div > .ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'CHOOSE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d374e78c-4b9d-4f90-952c-96b8f6e9e4c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c0eb25-c2b7-428c-b382-bb41d689d278",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload > .ant-upload",
+      "targets": [
+        ["css=.ant-upload > .ant-upload", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/span/div/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db181421-37c2-42e5-9ad9-7a8fcd9972fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ac7ef21-3a2f-4442-aaed-fb1f50ae80f1",
+      "comment": "",
+      "command": "assertText",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "635eaf81-224d-40fe-bf92-85adaaa78875",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15803d54-4d44-447a-9d65-3cc497ec00ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92bf9975-35bf-49f8-9de2-c17d0b440396",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "984ff3c4-d5fd-4bca-97c8-cd7a83f0ccf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15428a22-b5be-40ea-968f-6858c777b846",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b66a86-bc57-4efc-83d1-438515280e2c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3966cd7-cb74-4db1-bc21-5c7415175fde",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10191385-256d-4fb6-a226-34ce2e2229d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ยืนยันการชำระเงิน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f3fac2-79a5-441b-bb4d-f7f474a648f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa413453-ff66-4981-bd4b-365622b499dc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Payment ticket added successfully')]", "xpath:innerText"]
+      ],
+      "value": "Payment ticket added successfully"
+    }, {
+      "id": "a4ccb070-c6c5-4dbb-bd50-5818e9e1d537",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "571e7255-85d5-428a-89a1-0d08995caf33",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7ea0a4ce-b9fa-4360-99ed-f4169d4668c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["840a3475-a9bd-4aab-b42b-3c5cac6a1ff4"]
+  }],
+  "urls": [],
+  "plugins": []
+}

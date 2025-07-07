@@ -1,0 +1,18 @@
+
+.ant-table-thead > tr > th {
+    color: #895E3C !important; 
+    background-color: #ebd5c1 !important;
+    font-weight: bold; 
+}
+
+
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  border-bottom: 0.25px solid #cb9763 !important; 
+}
+
+
+.ant-table-thead > tr > th {
+  border-bottom: 0.5px solid #cb9763 !important; 
+}

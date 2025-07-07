@@ -1,0 +1,112 @@
+.header-foods-box {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 15);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 180px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 183, 15);
+}
+
+.header-total-foods-box {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 15);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 260px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 183, 15);
+  margin-right: auto;
+}
+
+.header-foods-box-create {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 15);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 150px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 183, 15);
+}
+
+.header-foods-box-edit {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 15);
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 230px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 183, 15);
+}
+
+.bg-slate-700 {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 10px 0;
+}
+
+.contentStock-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  color: #1e293b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.capitalize1 {
+  color: white;
+  background-color: rgb(0, 170, 255);
+  border-radius: 15px;
+  width: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.capitalize2 {
+  color: white;
+  background-color: rgb(255, 0, 136);
+  border-radius: 15px;
+  width: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

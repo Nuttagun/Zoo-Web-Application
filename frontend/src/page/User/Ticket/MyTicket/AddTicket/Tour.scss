@@ -1,0 +1,192 @@
+:root{
+    --primaryColor: #3ab3a7;
+    --primaryHover: #0c988a;
+    --secHoverColor: #253b53;
+    --greyColor: #f7f7f7;
+}
+
+.tours{
+    .secContainer{
+        .tourContainer{
+            display: grid;
+            gap: 1rem;
+
+            .singleTour{
+                width: 100%;
+                position: relative;
+                border: 1px solid var(--greyColor);
+                padding-bottom: 1rem;
+                border-radius: 10px;
+                overflow: hidden;
+                transition: .4s ease;
+
+                &:hover{
+                    background: var(--greyColor);
+                }
+
+                .imgDiv{
+                    height: 200px;
+                    width: 100%;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        object-fit: cover;
+                        transition: .3s ease-in-out;
+                    }
+
+                    &:hover{
+                        img{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+
+                .tourInfo{
+                    padding: 0 1rem;
+
+                    .tourTitle{
+                        font-size: 15px;
+                        color: var(--primaryColor);
+                        font-weight: 600;
+                    }
+
+                    .stars_review{
+                       align-items: center;
+                       gap: .5rem;
+                       padding: 1rem 0;
+
+                       .stars{
+                            color: rgb(245, 176, 79);
+
+                            .icon{
+                                font-size: 14px;
+                            }
+                        }
+
+                        .custReview{
+                            font-size: 13px;
+                            transform: translateY(-2px);
+                        }
+                    }
+
+                    p{
+                        padding-bottom: 1rem;
+                    }
+
+                    .btn{
+                        color: var(--primaryColor);
+                        font-size: 14px;
+                        border: 2px solid var(--primaryColor);
+                        transition: .3s ease;
+
+                        &:hover{
+                            background: var(--primaryColor);
+                            color: white;
+                            border: 2px solid var(--primaryColor);
+                        }
+                    }
+                }
+
+                .price{
+                    position: absolute;
+                    padding: 10px;
+                    background: var(--primaryColor);
+                    top: 0;
+                    right: 0;
+                    color: white;
+                    font-size: 15px;
+                    font-weight: 800;
+                }
+
+
+            }
+        }
+    }
+}
+
+//MEDIA QUERIES 
+@media screen and (min-width: 580px){
+    .tours{
+         .secContainer{
+            .tourContainer{
+                .singleTour{
+                    grid-template-columns: repeat(2,1fr);
+                    padding-bottom: 0rem;
+
+                    .imgDiv{
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .tourInfo{
+                        padding: 1rem;
+                    }
+                }
+            }
+         }
+    }
+}
+
+@media screen and (min-width: 1054px){
+    .tours{
+        .secContainer{
+           .tourContainer{
+                .singleTour{
+
+                   .tourInfo{
+                        .tourTitle{
+                            font-size: 18px;
+                        }
+                        .stars_review{
+                            .custReview{
+                                font-size: 14px;
+                                transform: translateY(-2.5px);
+                            }
+                        }
+
+                        p{
+                            font-size: 14px;
+                            line-height: 1.5rem;
+                        }
+
+                        .btn{
+                            font-size: 15px;
+                        }
+
+                    }
+                }
+            }
+        }
+   }
+}
+
+@media screen and (min-width: 1496px){
+    .tours{
+        .secContainer{
+           .tourContainer{
+                .singleTour{
+                   .tourInfo{
+                        .tourTitle{
+                            font-size: 20px;
+                        }
+
+                        p{
+                            font-size: 15px;
+                        }
+
+                        .btn{
+                            font-size: 15px;
+                            width: max-content;
+                        }
+
+                    }
+
+                    .price{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+   }
+}

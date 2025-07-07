@@ -1,0 +1,158 @@
+{
+  "id": "63ab8ac5-36bc-4082-b399-a11c0ee215e1",
+  "version": "2.0",
+  "name": "SEweek9",
+  "url": "http://localhost:5173/zoosale/managezooshop",
+  "tests": [{
+    "id": "7b4a5b65-24be-4e67-8e1f-83a1bdd6575a",
+    "name": "test11",
+    "commands": [{
+      "id": "3b8a300d-0876-4072-ae74-5683a0734dbf",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/managezooshop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a27cf8f1-6530-4a6f-a52d-91ebac7bd81b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1703x954",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24ecc08e-1a5e-4cf3-ba0b-18eece091776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-cell-row-hover > .ant-btn-color-primary",
+      "targets": [
+        ["css=.ant-table-cell-row-hover > .ant-btn-color-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/button", "xpath:idRelative"],
+        ["xpath=//td[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'แก้ไข')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2645be34-fe4b-4849-8f11-d9ff5b7c084e",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e94a5e-21af-4d9e-9a58-973b8bd7ad91",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "GGhh555"
+    }, {
+      "id": "5641c2bc-f8c9-456b-b7d1-22e4f9be6a39",
+      "comment": "",
+      "command": "click",
+      "target": "css=#DataStockProduct > div:nth-child(2)",
+      "targets": [
+        ["css=#DataStockProduct > div:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83852b6c-33c6-4daa-aa47-fe7438793f60",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_priceproduct",
+      "targets": [
+        ["id=DataStockProduct_priceproduct", "id"],
+        ["css=#DataStockProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "545454.25"
+    }, {
+      "id": "b4489b32-8f2e-43ee-b7ea-da1362643d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_barcodeproduct",
+      "targets": [
+        ["id=DataStockProduct_barcodeproduct", "id"],
+        ["css=#DataStockProduct_barcodeproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcodeproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca721ed-8c20-43c8-afe9-cd95a2f11ea4",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcodeproduct",
+      "targets": [
+        ["id=DataStockProduct_barcodeproduct", "id"],
+        ["css=#DataStockProduct_barcodeproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcodeproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "4774474447455"
+    }, {
+      "id": "6b013dd6-969a-466e-bde1-f25b7671858c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-color-primary:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'แก้ไขสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e31b083d-7711-4c47-8fd6-8da254fcad05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "225403bb-912c-404b-aedd-5fe015a9e8f0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Product updated successfully')]", "xpath:innerText"]
+      ],
+      "value": "Product updated successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "5187f1c7-01e7-43a2-b9d3-d6f455979d2b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b4a5b65-24be-4e67-8e1f-83a1bdd6575a"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/managezooshop"],
+  "plugins": []
+}

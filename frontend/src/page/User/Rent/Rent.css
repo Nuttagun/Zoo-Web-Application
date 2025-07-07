@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .text { 
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    flex-grow: 1;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin-right: 10px; 
+  }
+
+.gallery-container {
+    width: 80%; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: auto; 
+    margin-right: 0;
+  }
+  
+  .image-row {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .image {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+
+  .caption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .vehicle-gallery {
+    overflow-x: auto;
+    padding: 10px 0;
+    white-space: nowrap;
+    width: 90%; 
+  }
+  
+  .vehicle-row {
+    display: flex; 
+    gap: 10px; 
+  }
+  
+  .card-container-vehicle {
+    width: 14rem; 
+    padding: 10px;
+    box-shadow: 0px 10px 8px #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: white;
+    height: fit-content;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #048F0D;
+    height: 300px;
+    min-width: 200px;
+  }
+  
+  .card-img-vehicle {
+    width: 60%; 
+    max-height: 120px; 
+    object-fit: cover; 
+    margin: auto;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .card-title-vehicle {
+    margin: 1rem 5% 0rem 5%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .card-description-vehicle {
+    margin: 0.5rem 5%;
+  }
+  

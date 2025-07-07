@@ -1,0 +1,194 @@
+{
+  "id": "1a2ffa17-f1eb-4c6d-bf11-51a5f0a0ac56",
+  "version": "2.0",
+  "name": "SEweek9",
+  "url": "http://localhost:5173/",
+  "tests": [{
+    "id": "066dc021-4e8a-4d71-87ba-99e3d42cac6c",
+    "name": "บาร์โค้ดซ้ำกับฐานข้อมูล885666441",
+    "commands": [{
+      "id": "2a5d5ce2-50fe-4a1d-a53c-6ff07670567a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d78f02e7-5eef-4661-97a8-07520bc4af67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1767x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "915246f0-d77c-4cf9-9201-6fa50c530c52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.singleDestination:nth-child(2) .btn",
+      "targets": [
+        ["css=.singleDestination:nth-child(2) .btn", "css:finder"],
+        ["xpath=//section[@id='main']/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e548e927-49f7-4c84-97f5-0677db578311",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24469b2-e5b3-4163-bf5a-a5d0702c57b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9caa5aa6-d3d9-4652-86bc-60ebf39b02dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-cell-hover > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-cell-hover > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[5]/td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50353cd5-703c-4365-b2cf-84e3d8b93b32",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > div button:nth-child(3) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16e18660-db82-4885-831b-48a25211e98d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button:nth-child(3) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d58887b2-4afa-448c-9e36-83bca52e841c",
+      "comment": "",
+      "command": "//click",
+      "target": "css=div:nth-child(5) button:nth-child(3) > svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "922aa043-4841-4835-ad75-79b27fe29365",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn > span",
+      "targets": [
+        ["css=.ant-btn > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "539e0364-aa8a-4ddf-b5ee-cafd71be24e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d5bca6a-1693-48e0-9bb3-593944108a16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32efde09-a0c9-4cf9-8c4a-0fcf720dd7f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7ce898d-24dd-4260-a0dc-eb01f1212d10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ebdd1e5-eaa4-4235-b502-d541cab18b69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn > b",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9792b7ad-b3f3-4b0f-99a6-60aa22d0c1bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [],
+      "value": "C:\\Users\\aut\\Desktop\\UAT\\3df67e7d-034c-424c-86e8-0b81b5b8cf19.jpg"
+    }, {
+      "id": "2b159a9e-150c-4428-a6c1-89ba04039d50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > b",
+      "targets": [
+        ["css=.ant-btn-primary > b", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/button/b", "xpath:idRelative"],
+        ["xpath=//button/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Confirm Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59d0555-6dea-4e8a-9973-648f54ebb15a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(1) > b",
+      "targets": [
+        ["css=.ant-btn:nth-child(1) > b", "css:finder"],
+        ["xpath=//div[2]/button/b", "xpath:position"],
+        ["xpath=//b[contains(.,'ใช่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b857137c-19a0-425c-8666-ddee1a7b02df",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Payment ticket added successfully')]",
+      "targets": [
+        ["css=span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Payment ticket added successfully')]", "xpath:innerText"]
+      ],
+      "value": "Payment ticket added successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "2c9c95c8-99ef-41aa-90df-e8fe4a434826",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["066dc021-4e8a-4d71-87ba-99e3d42cac6c"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}

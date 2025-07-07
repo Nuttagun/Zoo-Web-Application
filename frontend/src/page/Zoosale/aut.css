@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+b,
+p,
+Button {
+    font-family: 'Mitr', sans-serif;
+}
+
+/* color{
+    
+    #ff02ff
+
+
+    #9400ce
+    #f74f98     #f282b3
+    #e2e2e2
+    #F7B22C     #F6D799
+
+    ม่วงอ่อน   #F5F3FF
+    ชมพูอ่อน  #FDF2F8
+
+} */
+
+.ant-input::placeholder {
+    font-family: 'Mitr', sans-serif;
+}
+
+.ant-input {
+    font-family: 'Mitr', sans-serif;
+}
+
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+.ant-input-number {
+    font-family: 'Mitr', sans-serif;
+    font-Weight: 500;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+::selection{
+    /**/
+    background: #3266D1;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: auto; /* ใช้ค่าปกติ */
+    background: transparent; /* สีพื้นหลังเริ่มต้น */
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent; /* สี thumb เริ่มต้น */
+    border-radius: 0; /* ลบมุมโค้ง */
+}
+

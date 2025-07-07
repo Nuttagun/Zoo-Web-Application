@@ -1,0 +1,69 @@
+{
+  "id": "8c4ccd37-fe96-489b-812a-281e2148617a",
+  "version": "2.0",
+  "name": "UATหน้า0yf=yho;k'",
+  "url": "http://localhost:5173/zoosale/manageshelfzone",
+  "tests": [{
+    "id": "df1f8b4e-642a-4309-bf3d-51d9dbb6375f",
+    "name": "AllTrue",
+    "commands": [{
+      "id": "e2c9cc60-93aa-4c7a-aa4a-e8e437554fdb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/manageshelfzone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eabe33b-48fa-4f72-abd5-969e7764653b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d773a05-5ac3-42d7-8c3f-3e4debba2c2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66a8b3b4-ddf9-49da-aabc-3489ce88c518",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a53dfd8-8c62-450d-bb44-3fd6047f46d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shelf name cannot be empty')]", "xpath:innerText"]
+      ],
+      "value": "Shelf name cannot be empty"
+    }]
+  }],
+  "suites": [{
+    "id": "962d8283-c321-42d8-98a6-5b599b467302",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df1f8b4e-642a-4309-bf3d-51d9dbb6375f"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/manageshelfzone"],
+  "plugins": []
+}

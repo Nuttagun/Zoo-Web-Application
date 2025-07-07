@@ -1,0 +1,180 @@
+{
+  "id": "c1858f91-c1d6-4869-85c2-34266e42af0c",
+  "version": "2.0",
+  "name": "UATหน้าหลัก",
+  "url": "http://localhost:5173/zoosale/managezooshop",
+  "tests": [{
+    "id": "5c691ffb-39a3-47aa-9fea-2ddc37a9bb00",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5584a5e1-0258-411f-8e5a-cb242bfe3d37",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/managezooshop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00a643f2-a4ef-4374-8f43-9a14cb966b4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "911ee99c-18e4-40eb-a761-63bc283a4386",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-row:nth-child(2) .ant-btn:nth-child(1) svg",
+      "targets": [
+        ["css=.ant-table-row:nth-child(2) .ant-btn:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f020622-0282-476b-86b8-1a28016c06c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55cc8d81-e2ae-4ea6-a609-19050891f7fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "เลย์"
+    }, {
+      "id": "ce61831f-2879-469f-bed4-3dc00cad2117",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_priceproduct",
+      "targets": [
+        ["id=DataStockProduct_priceproduct", "id"],
+        ["css=#DataStockProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a4d9d1a-d39f-4547-a68f-76102a71fec0",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_priceproduct",
+      "targets": [
+        ["id=DataStockProduct_priceproduct", "id"],
+        ["css=#DataStockProduct_priceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "32.14"
+    }, {
+      "id": "41ff8913-a16c-4357-9512-eb7cd6ab768d",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94604a84-c379-4fca-b097-19a78e497139",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "274"
+    }, {
+      "id": "871d07b8-b101-4187-8a9d-dcad008e29a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-form-item:nth-child(5) > .ant-row",
+      "targets": [
+        ["css=.ant-form-item:nth-child(5) > .ant-row", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "396879fa-e4a9-457d-a9b3-51c3e42a9285",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcodeproduct",
+      "targets": [
+        ["id=DataStockProduct_barcodeproduct", "id"],
+        ["css=#DataStockProduct_barcodeproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcodeproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "8852258525"
+    }, {
+      "id": "5d5a027e-d074-4fe2-bd32-603abcc0169b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(7)",
+      "targets": [
+        ["css=.ant-btn:nth-child(7)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ADD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e706d233-91fd-432a-a2a6-dd9865e27cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//body/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c219ea2-3345-4374-b09f-9951eb228902",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Product updated successfully')]", "xpath:innerText"]
+      ],
+      "value": "Product updated successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "e74fd5e7-29b2-46ac-9c9e-f58bcf123509",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c691ffb-39a3-47aa-9fea-2ddc37a9bb00"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/managezooshop"],
+  "plugins": []
+}

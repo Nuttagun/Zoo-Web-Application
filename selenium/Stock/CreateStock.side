@@ -1,0 +1,688 @@
+{
+  "id": "34ef4c32-eb8c-453d-b32e-7fe0e0144b37",
+  "version": "2.0",
+  "name": "CreateStock",
+  "url": "http://localhost:5173/zookeeper/createfood",
+  "tests": [{
+    "id": "a513d623-14fa-4487-9b26-436549b8b320",
+    "name": "CreateStockPass",
+    "commands": [{
+      "id": "e277cdbc-f476-4f09-b2b3-c958a59d197b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zookeeper/createfood",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d317eb88-9307-4bbb-9b53-0a590e92fa8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x815",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "738d5ac0-8023-4520-b8cd-5ccec4896d26",
+      "comment": "",
+      "command": "click",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda32bad-1fd0-40a5-8ecd-cf9b11d56398",
+      "comment": "",
+      "command": "type",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "sheap"
+    }, {
+      "id": "73166b2d-570a-4330-b111-5e5f9020db45",
+      "comment": "",
+      "command": "click",
+      "target": "id=Quantity",
+      "targets": [
+        ["id=Quantity", "id"],
+        ["css=#Quantity", "css:finder"],
+        ["xpath=//input[@id='Quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45015a72-93e0-43d6-8248-290d635322ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=Quantity",
+      "targets": [
+        ["id=Quantity", "id"],
+        ["css=#Quantity", "css:finder"],
+        ["xpath=//input[@id='Quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "46"
+    }, {
+      "id": "1d9073f7-3217-4721-9b4c-978578b661af",
+      "comment": "",
+      "command": "click",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9070a6aa-df9f-436a-81c2-fb1a25f7de9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#root > .flex",
+      "targets": [
+        ["css=#root > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70efb0c3-e9f1-45a3-a20b-e1931f0a4a03",
+      "comment": "",
+      "command": "type",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2025-01-31"
+    }, {
+      "id": "748a629d-4fd7-4567-84e3-c27de9be113d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3a9229de-9c04-4983-b13d-f5ca0af75bc7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div/div",
+      "targets": [
+        ["css=.ant-select-open > .ant-select-selector", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3141da44-ed93-409e-80ac-95f481dc7966",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a3e2f0-38ff-408d-9c7f-6da913a51459",
+      "comment": "",
+      "command": "click",
+      "target": "id=CatagoryOfFoodID",
+      "targets": [
+        ["id=CatagoryOfFoodID", "id"],
+        ["css=#CatagoryOfFoodID", "css:finder"],
+        ["xpath=//input[@id='CatagoryOfFoodID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[3]/div/div/div[2]/div/div/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0567a08b-7003-4c8d-a6b7-68e0a7959118",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[4]/div/div/div[2]/div/div/div/div/div",
+      "targets": [
+        ["css=div:nth-child(7) .ant-select-item:nth-child(1) > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "980ab83a-6746-452a-9f49-26d9c1245873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5256a011-1a99-40b0-b426-23a140324755",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\food\\sheapmeat.jpg"
+    }, {
+      "id": "cbb4f018-8550-43ed-938e-58a357e971cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8a23fe-b532-44c9-9dcb-185e982333a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/div/div/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eecc482d-9e02-467f-b0b5-47c24a2fafdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//body/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d46920a-a8b2-4658-b5b0-696727ed16b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'สร้างข้อมูลการนำเข้าอาหารสัตว์สำเร็จ')]", "xpath:innerText"]
+      ],
+      "value": "สร้างข้อมูลการนำเข้าอาหารสัตว์สำเร็จ"
+    }, {
+      "id": "1babbb64-a9b6-45cc-987b-6edff4c9f742",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiTableCell-root:nth-child(6) .tss-1akey0g-MUIDataTableHeadCell-data",
+      "targets": [
+        ["css=.MuiTableCell-root:nth-child(6) .tss-1akey0g-MUIDataTableHeadCell-data", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div[3]/table/thead/tr/th[6]/span/button/div/div", "xpath:idRelative"],
+        ["xpath=//th[6]/span/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c70a5b6b-2869-4a6e-a455-b0540ebfa4f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-10\\/12 > div:nth-child(1)",
+      "targets": [
+        ["css=.w-10\\/12 > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f269bcc-871f-491e-83d6-4d73182bc934",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tss-10rusft-MUIDataTableToolbar-icon:nth-child(2)",
+      "targets": [
+        ["css=.tss-10rusft-MUIDataTableToolbar-icon:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "551f58ac-c9da-4e2e-896c-d2cecb83f9d9",
+    "name": "Create-Stock_Fieldname",
+    "commands": [{
+      "id": "891d6f4e-528b-4109-9e26-71c6573a6602",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zookeeper/createfood",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42bae21e-8f19-412d-b03a-afc30243f2ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "422459e2-e728-4237-9b2f-2070bd9f7e81",
+      "comment": "",
+      "command": "click",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb6bd27-1196-4284-80df-6fee837ed43e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Sheapmeattt"
+    }, {
+      "id": "72ec672c-7231-48f4-8db1-64bdb4e743fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "173ae3b4-8365-4df4-a4ce-86901b06384b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312888c8-3d00-4e26-9032-fe3511969400",
+      "comment": "",
+      "command": "type",
+      "target": "id=Foodname",
+      "targets": [
+        ["id=Foodname", "id"],
+        ["css=#Foodname", "css:finder"],
+        ["xpath=//input[@id='Foodname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Sheapmeatttcss=.ant-btn-primarycss=.ant-btn-primarycss=.ant-btn-primarycss=.ant-btn-primarycss=.ant-"
+    }, {
+      "id": "94f14a95-87c9-4e19-977d-3f9ba2e7f241",
+      "comment": "",
+      "command": "click",
+      "target": "id=Quantity",
+      "targets": [
+        ["id=Quantity", "id"],
+        ["css=#Quantity", "css:finder"],
+        ["xpath=//input[@id='Quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc74e000-ba87-44d5-bc50-7b1b6839f6c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Quantity",
+      "targets": [
+        ["id=Quantity", "id"],
+        ["css=#Quantity", "css:finder"],
+        ["xpath=//input[@id='Quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "54"
+    }, {
+      "id": "b4e08514-2ece-4b57-8027-48d2ce7116e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a0f184c-acef-4e3e-9546-cf26f4be51cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2025-01-31"
+    }, {
+      "id": "a2c8ff3b-d742-41fd-9e0f-570f513aed7b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ExpiryDate",
+      "targets": [
+        ["id=ExpiryDate", "id"],
+        ["css=#ExpiryDate", "css:finder"],
+        ["xpath=//input[@id='ExpiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fea858cc-6106-4a0f-a7d3-3e495a0f5f29",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContainerOfFoodID",
+      "targets": [
+        ["id=ContainerOfFoodID", "id"],
+        ["css=#ContainerOfFoodID", "css:finder"],
+        ["xpath=//input[@id='ContainerOfFoodID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "600f8a02-d174-49b5-bea5-312712105744",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6127cc-1ed1-4fbc-96b9-c912978f7497",
+      "comment": "",
+      "command": "click",
+      "target": "id=CatagoryOfFoodID",
+      "targets": [
+        ["id=CatagoryOfFoodID", "id"],
+        ["css=#CatagoryOfFoodID", "css:finder"],
+        ["xpath=//input[@id='CatagoryOfFoodID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[3]/div/div/div[2]/div/div/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d96d2a-fbed-4db6-87d1-c133831187c9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[4]/div/div/div[2]/div/div/div/div/div",
+      "targets": [
+        ["css=div:nth-child(7) .ant-select-item:nth-child(1) > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b1fadf-3ce1-4efb-9974-c699e4c295d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload-list",
+      "targets": [
+        ["css=.ant-upload-list", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div/div/div/div/div[2]/div/div/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5e6b0f-7b96-4983-a0e8-a506442b8199",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body",
+      "targets": [
+        ["css=.ant-card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87494458-19ff-418f-878e-a8fa387dd6ed",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#Foodname_help > .ant-form-item-explain-error",
+      "targets": [
+        ["css=#Foodname_help > .ant-form-item-explain-error", "css:finder"],
+        ["xpath=//div[@id='Foodname_help']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "กรุณากรอกชื่ออาหารสัตว์ไม่เกิน 100 ตัวอักษร"
+    }, {
+      "id": "1b7394c9-85f5-4db9-954e-97a8d6097645",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/div/div/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06bcd66c-fc57-4233-8ffc-f8a8cbb4dff0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/div/div/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e77809-9224-4779-ae98-836b210c8098",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/div/div/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55083e0-2f2a-45f8-a8f6-cd1c36b08260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-form > .ant-row:nth-child(1)",
+      "targets": [
+        ["css=.ant-form > .ant-row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd1024ff-8a69-4025-aa67-220eabe9babc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-upload",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89ddcfc6-af45-4cd3-a238-7d8bec95d2e6",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='file']",
+      "targets": [],
+      "value": "C:\\team18\\backend\\uploads\\food\\sheapmeat.jpg"
+    }, {
+      "id": "a473ff9d-9b0a-496d-a8cc-60c55b29b6ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b818d734-2726-461b-8909-128f50f6f23e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/div/div/div/div/div/div/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e27fba59-6ba3-46e3-a43e-f82ea7789331",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f254c0-c709-4044-bad0-58b2922bd7c3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'กรุณากรอกข้อมูลอาหารสัตว์ให้ถูกต้องเเละครบถ้วน')]", "xpath:innerText"]
+      ],
+      "value": "กรุณากรอกข้อมูลอาหารสัตว์ให้ถูกต้องเเละครบถ้วน"
+    }, {
+      "id": "c2473872-a460-42d4-ad6a-781ef721eab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-form > .ant-row:nth-child(1)",
+      "targets": [
+        ["css=.ant-form > .ant-row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d9a98520-073c-4bc3-a089-ef6e4a723e52",
+    "name": "Create-reuqired all field",
+    "commands": [{
+      "id": "6659ef0f-e7ff-40d3-ba7a-78549a1620b2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zookeeper/createfood",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9fa032f-7827-4b63-8d72-0779d20c0252",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1078x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d29bc563-668e-4de0-99cc-8c6b5aba507b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-icon path:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn-icon path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7b1f6e9-b10c-40c3-8c85-c65ff561f55f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//body/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae5bbd77-37f2-4ced-be90-1c27f769e97a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//body/div[2]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'กรุณากรอกข้อมูลอาหารสัตว์ให้ถูกต้องเเละครบถ้วน')]", "xpath:innerText"]
+      ],
+      "value": "กรุณากรอกข้อมูลอาหารสัตว์ให้ถูกต้องเเละครบถ้วน"
+    }, {
+      "id": "c22ce84a-fbf5-45d0-bb6b-a2778cb279a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body",
+      "targets": [
+        ["css=.ant-card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "678dc032-25bf-4b9d-8d43-b7a540a9f53a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd1f249a-19a1-4235-97a2-252d5a54e72c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a513d623-14fa-4487-9b26-436549b8b320"]
+  }],
+  "urls": ["http://localhost:5173/zookeeper/createfood"],
+  "plugins": []
+}

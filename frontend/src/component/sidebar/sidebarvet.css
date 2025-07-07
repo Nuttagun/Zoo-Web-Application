@@ -1,0 +1,218 @@
+.vet-sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px ;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.vet-sidebar.vet-collapsed {
+  width: 70px;
+}
+
+
+.vet-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  position: relative; /* เพิ่มตำแหน่ง relative */
+  
+  transition: opacity 0.3s ease;
+}
+
+.vet-sidebar.vet-collapsed .vet-sidebar-header h2 {
+  opacity: 0; /* ซ่อนชื่อเมื่อย่อ */
+}
+
+.vet-sidebar-header h2 {
+  font-size: 18px;
+  color: #895228;
+  font-weight: bold;
+  margin-right: 40px; /* เพิ่มช่องว่างสำหรับปุ่ม */
+}
+.vet-sidebar-menu .vet-menu-item a {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.3s ease, margin 0.3s ease;
+}
+
+.vet-sidebar.vet-collapsed .vet-menu-item a {
+  margin-left: 0;
+}
+
+
+.vet-sidebar-menu .vet-menu-item.active {
+  background-color: #e1ac83; /* สีพื้นหลังเมื่อเลือก */
+  color: white; /* ตัวหนังสือเป็นสีขาว */
+  border-radius: 8px; /* ขอบมุมโค้ง */
+  padding: 8px; /* เพิ่มพื้นที่ภายใน */
+  font-weight: bold; /* ทำให้ตัวหนังสือเป็นตัวหนา */
+  animation: slideIn 0.3s ease-out; /* เพิ่มการเคลื่อนไหว */
+}
+
+
+.vet-menu-item {
+  margin-bottom: 15px;
+}
+
+.vet-menu-item a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.vet-menu-item a .vet-menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.vet-menu-item a:hover {
+  color: #ff0000cb;
+  font-size: 18px; /* ขยายตัวอักษร */
+  transition: all 0.1s ease-in-out; /* เพิ่มการเคลื่อนไหว */
+}
+
+
+
+/* การเคลื่อนไหว */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* vet-dashboard-container  ใช้ flex */
+.vet-vet-dashboard-container  {
+  display: flex;
+  height: 100vh;
+}
+
+.vet-content {
+  flex-grow: 1;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+  margin-left: 250px; /* เมื่อ sidebar ขยาย */
+}
+
+/* เมื่อ sidebar ย่อ */
+.vet-sidebar.vet-collapsed + .vet-content {
+  margin-left: 60px; /* ปรับให้ margin เหมือนกับ sidebar ที่ย่อ */
+}
+
+/* ปุ่มย่อ */
+.vet-sidebar .vet-collapse-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: left 0.3s ease;
+  width: 30px; /* เพิ่มความกว้างที่แน่นอน */
+  height: 30px; /* เพิ่มความสูงที่แน่นอน */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vet-sidebar.vet-collapsed .vet-collapse-btn {
+  right: 10px; /* ปรับตำแหน่งเมื่อย่อ */
+}
+
+.vet-sidebar-content {
+  margin-top: 50px; /* Add space for the collapse button */
+  width: 100%;
+}
+
+.vet-collapse-button {
+  position: absolute; /* ใช้ตำแหน่ง absolute */
+  right: 0; /* วางปุ่มที่ขวาสุด */
+  top: 50%;
+  transform: translateY(-50%); /* ทำให้ปุ่มอยู่กลางในแนวตั้ง */
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 5px;
+}
+
+.vet-user-info {
+  position: absolute;
+  bottom: 0; /* วางไว้ด้านล่างสุด */
+  left: 0;
+  width: 100%; /* ครอบคลุมความกว้างของ Sidebar */
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f3f3f3;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vet-user-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #a96420cb;
+}
+
+.vet-user-details {
+  margin-left: 10px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.vet-user-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.vet-user-email {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.vet-sidebar.vet-collapsed .vet-user-details {
+  display: none; /* ซ่อนชื่อผู้ใช้และอีเมล */
+}
+
+.vet-sidebar.vet-collapsed .vet-user-profile-pic {
+  width: 40px; /* ลดขนาดรูป */
+  height: 40px;
+}
+
+.vet-sidebar.vet-collapsed .vet-menu-item a span {
+  display: none; /* ซ่อนข้อความในเมนู */
+}
+

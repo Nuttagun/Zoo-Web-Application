@@ -1,0 +1,111 @@
+
+.ant-modal {
+    width: 75% !important; 
+    max-width: 1200px; 
+    overflow: hidden; 
+}
+
+.ant-modal-body {
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+.ant-modal-header {
+    background-color: #003459; 
+    color: white; 
+}
+
+.ant-modal-title {
+    font-size: 24px; 
+}
+
+.ant-modal-close {
+    color: white; 
+}
+
+.ant-modal-footer {
+    text-align: center; 
+}
+
+/* Add border-radius to all corners of the modal */
+.ant-modal-content {
+    border-radius: 15px; /* Adjust this value for desired corner radius */
+    padding: 20px;
+}
+
+/* Header Modal Styles */
+.header-Modal {
+    border-radius: 4px;
+}
+
+.header-Modal p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.header-Modal select {
+    margin-top: 10px;
+}
+
+/* Search Container Styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Prevent overflow */
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 600px; /* Adjust this value as needed */
+    margin-top: 10px;
+}
+
+/* Review List Container Styles */
+.review-list-container {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.review-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.reviews-comment-text p {
+    display: flex;
+    align-items: center;
+    gap: 1.5px; 
+    margin: 0; 
+  }
+
+.comment-reviews-render{
+    width: 97%;
+}
+
+.review-profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular profile image */
+    object-fit: cover;
+}
+
+.date-review {
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
+
+.star-color-rating,
+.star-color-fail {
+  display: inline-block; 
+  margin: 0;
+}
+
+.highlighted-text {
+    font-weight: bold;
+    font-size: 20px; 
+  }

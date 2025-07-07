@@ -1,0 +1,190 @@
+:root {
+  --primaryColor: rgb(255, 183, 15);
+  --primaryHover: #0c988a;
+  --secHoverColor: #253b53;
+  --greyColor: #f7f7f7;
+}
+
+.tours .secContainer .tourContainer .singleTour {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  border: 1px solid var(--greyColor);
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.tours .secContainer .tourContainer .singleTour:hover {
+  background: var(--greyColor);
+}
+.tours .secContainer .tourContainer .singleTour .imgDiv {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.tours .secContainer .tourContainer .singleTour .imgDiv img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+.tours .secContainer .tourContainer .singleTour .imgDiv:hover img {
+  transform: scale(1.1);
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo {
+  padding: 0 1rem;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .tourTitle {
+  font-size: 15px;
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .stars_review {
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .stars_review .stars {
+  color: rgb(245, 176, 79);
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .stars_review .stars .icon {
+  font-size: 14px;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .stars_review .custReview {
+  font-size: 13px;
+  transform: translateY(-2px);
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo p {
+  padding-bottom: 1rem;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .btn {
+  color: white;
+  font-size: 14px;
+  border: 2px solid white;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+.tours .secContainer .tourContainer .singleTour .tourInfo .btn:hover {
+  background: var(--primaryColor);
+  color: white;
+  border: 2px solid var(--primaryColor);
+}
+.tours .secContainer .tourContainer .singleTour .price {
+  position: absolute;
+  padding: 4px;
+  background: var(--primaryColor);
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 580px) {
+  .tours .secContainer .tourContainer .singleTour {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0rem;
+  }
+  .tours .secContainer .tourContainer .singleTour .imgDiv {
+    height: 100%;
+    width: 100%;
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo {
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1054px) {
+  .tours .secContainer .tourContainer .singleTour .tourInfo .tourTitle {
+    font-size: 18px;
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo .stars_review .custReview {
+    font-size: 14px;
+    transform: translateY(-2.5px);
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo p {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo .btn {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1496px) {
+  .tours .secContainer .tourContainer .singleTour .tourInfo .tourTitle {
+    font-size: 20px;
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo p {
+    font-size: 15px;
+  }
+  .tours .secContainer .tourContainer .singleTour .tourInfo .btn {
+    font-size: 15px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .tours .secContainer .tourContainer .singleTour .price {
+    font-size: 25px;
+  }
+}
+
+span{
+  display: block;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+
+input{
+  font-size: 100%;
+}
+
+.spanText{
+  font-size: 14px;
+}
+
+p{
+  font-size: 13px;
+  opacity: .7;
+}
+
+.secTitle{
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+
+.section{
+  padding: 0rem 0 0rem;
+}
+
+.container{
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+
+.tours .secContainer .tourContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+

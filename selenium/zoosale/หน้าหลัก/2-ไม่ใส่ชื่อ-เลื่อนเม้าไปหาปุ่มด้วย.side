@@ -1,0 +1,108 @@
+{
+  "id": "505482cc-7375-40f8-8f1a-eff869ccc435",
+  "version": "2.0",
+  "name": "UATหน้ารับสินค้า",
+  "url": "http://localhost:5173/zoosale/managezooshop",
+  "tests": [{
+    "id": "be414a3e-91f9-4a0e-9d8c-0f63c95da6c9",
+    "name": "ไม่เลือกอัพรูป",
+    "commands": [{
+      "id": "359c8380-5e4c-4adf-9c01-dea8811bb8a0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/managezooshop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c93681e-1e8e-4fae-9932-7c892278887f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1775x930",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a1cea98-4860-42e3-bfa4-a6b1e1f5071b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-cell-row-hover > .ant-btn-color-primary > span",
+      "targets": [
+        ["css=.ant-table-cell-row-hover > .ant-btn-color-primary > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/button/span", "xpath:idRelative"],
+        ["xpath=//td[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'แก้ไข')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c82661-2279-42a1-a5bd-a9f23e942576",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0255ad12-2044-4765-91ca-d388378e64ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2dc7c13-25bc-4a9d-84d3-3d80f43114c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-color-primary:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'แก้ไขสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "540457c9-e36c-4426-adb1-b88fac625c50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-form-item-explain-error",
+      "targets": [
+        ["css=.ant-form-item-explain-error", "css:finder"],
+        ["xpath=//div[@id='DataStockProduct_nameproduct_help']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "624762e3-c7fe-4b3d-841b-483acfe3d9dc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-form-item-explain-error",
+      "targets": [
+        ["css=.ant-form-item-explain-error", "css:finder"],
+        ["xpath=//div[@id='DataStockProduct_nameproduct_help']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "กรุณากรอกชื่อสินค้า"
+    }]
+  }],
+  "suites": [{
+    "id": "35f8aafe-26a2-4ae3-9110-4854154aba52",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["be414a3e-91f9-4a0e-9d8c-0f63c95da6c9"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/managezooshop"],
+  "plugins": []
+}

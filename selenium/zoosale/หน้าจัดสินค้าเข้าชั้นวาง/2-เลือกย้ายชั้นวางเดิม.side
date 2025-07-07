@@ -1,0 +1,94 @@
+{
+  "id": "d136d42d-3ded-448e-a35e-e64b087f1860",
+  "version": "2.0",
+  "name": "SEweek8",
+  "url": "http://localhost:5173/zoosale/organizeproduct",
+  "tests": [{
+    "id": "9435083d-e09b-44c7-b4b3-8d7ecdc33057",
+    "name": "ไม่เลือกอัพรูป",
+    "commands": [{
+      "id": "7b83b4af-31d2-4480-80a2-aa48cd719602",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/organizeproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cde90728-0f81-4c49-aa24-af39bbb147c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1810x949",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7311955f-8497-4a8a-8c94-59c60a6c8d63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[8]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ย้ายชั้นวาง')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9abd266-eba7-4849-a610-d79289f88bac",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .ant-btn:nth-child(2)",
+      "targets": [
+        ["css=div > .ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataMoveProduct']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f2b7b6-af85-423a-a448-4fa4b16eb3c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .ant-btn:nth-child(2)",
+      "targets": [
+        ["css=div > .ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataMoveProduct']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a9d85a0-dcb1-4d38-934f-5e1fa5c880b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .ant-btn:nth-child(2)",
+      "targets": [
+        ["css=div > .ant-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='DataMoveProduct']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc499ac3-85fe-4857-a81e-3b6468a1d90d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ท่านเลือกชั้นวางเดิม')]", "xpath:innerText"]
+      ],
+      "value": "ท่านเลือกชั้นวางเดิม"
+    }]
+  }],
+  "suites": [{
+    "id": "7d0638ee-f15d-4f15-86e8-1316b191e6bd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9435083d-e09b-44c7-b4b3-8d7ecdc33057"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/organizeproduct"],
+  "plugins": []
+}

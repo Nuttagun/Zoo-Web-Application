@@ -1,0 +1,537 @@
+{
+  "id": "fa6ad90d-dc29-44d1-bc0d-88d10715ef5d",
+  "version": "2.0",
+  "name": "UATหน้ารับสินค้า",
+  "url": "http://localhost:5173/zoosale/receiveproduct",
+  "tests": [{
+    "id": "399d6781-2b99-4ac6-9ffa-ed13edad0e53",
+    "name": "test11",
+    "commands": [{
+      "id": "6be85d30-51ad-4e8c-8e0c-6618b575815c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/receiveproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d07b0f4-13f5-4e2e-809d-8912ade244b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1703x954",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edcd1962-e241-44a4-b1a5-abbc2755cb7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddda5bf5-dfce-4246-9707-f000a8a26465",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e1b36c-868c-4ccd-be3f-b2624a475cb5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7846e547-20c1-4af4-9049-798a7692b326",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [],
+      "value": "C:\\Users\\aut\\Desktop\\UAT\\หมูเด้ง.jpg"
+    }, {
+      "id": "b1d4f32a-7f01-4e1f-8cea-949711102a27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-footer > .ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3d74dea-6ed7-42f2-9ace-4df8885a11b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3534d0b5-9820-4ea9-9458-46a7dadf262b",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "หมูเด้ง"
+    }, {
+      "id": "cecaa9c1-f323-4f3b-aee6-c542650a89fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc98dfcd-455e-437e-a5c9-f4d598a4f07f",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "214"
+    }, {
+      "id": "d01d3475-b887-416a-b448-8f552333e7ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0415bc53-c82d-42c6-a6cd-58bfa7a3b6a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "88588547Hgs5s"
+    }, {
+      "id": "bf47c420-e2dc-4087-b903-2035a9a3f5a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(5) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(5) > span", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/button[2]/span", "xpath:idRelative"],
+        ["xpath=//form/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มในรายการ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e4a11ef-5b0e-43ca-b08e-a9603f9d0bf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-color-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf7b382-97bb-4554-a7e0-c3b007f19f5e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-btn-color-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "398ff242-7b69-4402-9d02-f0f5fce61bdb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-btn-color-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2584f273-d68c-4bf8-8264-421dbf32ce21",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [],
+      "value": "C:\\Users\\aut\\Desktop\\UAT\\393313-01-pack-potato-chip-lays-v5.jpg"
+    }, {
+      "id": "2e62ee6b-02f8-4426-a9f1-6710168c4893",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-footer > .ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc17e324-24d9-4d61-b5b4-b278d5ea88d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb17602-ae58-497f-bdff-a058aaadb3a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Lay"
+    }, {
+      "id": "60cc1845-1582-44c3-9ae1-ed2b6452307d",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb5dc68-bb5b-40fe-a04d-eb5b62ffd04c",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "2312"
+    }, {
+      "id": "dd11d140-546c-4d78-894b-87cadc830f42",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728f6374-04cf-4a51-8710-122500867595",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "88522474hk54s"
+    }, {
+      "id": "6f1d24cd-61a9-4e32-a7b5-3623a5dbff28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(5) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(5) > span", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/button[2]/span", "xpath:idRelative"],
+        ["xpath=//form/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มในรายการ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8231f3a-5c17-43f2-8dcf-8c3cebc140b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-color-primary:nth-child(2) > span",
+      "targets": [
+        ["css=.ant-btn-color-primary:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'สินค้าใหม่')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3089588b-ad00-40d3-8afd-78436bcf6f1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d980cfd9-4ea8-484f-ac04-6698d4497fce",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_nameproduct",
+      "targets": [
+        ["id=DataStockProduct_nameproduct", "id"],
+        ["css=#DataStockProduct_nameproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_nameproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "LayMAX"
+    }, {
+      "id": "53cf59fe-6331-496f-9882-9bcc3b262099",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44871442-5f2d-4ba6-9ab5-83d26971769c",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_pieceproduct",
+      "targets": [
+        ["id=DataStockProduct_pieceproduct", "id"],
+        ["css=#DataStockProduct_pieceproduct", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_pieceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[2]/div/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "7741"
+    }, {
+      "id": "671c5851-6ccc-40df-8f2d-60899de03a96",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba5145a3-191c-4ee5-b244-278df8a4efbc",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataStockProduct_barcode",
+      "targets": [
+        ["id=DataStockProduct_barcode", "id"],
+        ["css=#DataStockProduct_barcode", "css:finder"],
+        ["xpath=//input[@id='DataStockProduct_barcode']", "xpath:attributes"],
+        ["xpath=//form[@id='DataStockProduct']/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "8858856395555"
+    }, {
+      "id": "ebec9b5b-34cd-49ad-9a1d-b2dc3846c6db",
+      "comment": "",
+      "command": "type",
+      "target": "name=file",
+      "targets": [],
+      "value": "C:\\Users\\aut\\Desktop\\UAT\\606895-01-potato-chip-lays.jpg"
+    }, {
+      "id": "8fdc428f-541c-4788-8d32-ed470cdf79ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-footer > .ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-modal-footer > .ant-btn-primary > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2848d3f8-347d-41a6-a41a-5b0e0da60ef3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn:nth-child(5) > span",
+      "targets": [
+        ["css=.ant-btn:nth-child(5) > span", "css:finder"],
+        ["xpath=//form[@id='DataStockProduct']/button[2]/span", "xpath:idRelative"],
+        ["xpath=//form/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มในรายการ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fcc2137-1908-49db-80cf-38c26b012d11",
+      "comment": "",
+      "command": "click",
+      "target": "id=PriceReceiving_priceproduct",
+      "targets": [
+        ["id=PriceReceiving_priceproduct", "id"],
+        ["css=#PriceReceiving_priceproduct", "css:finder"],
+        ["xpath=//input[@id='PriceReceiving_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='PriceReceiving']/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca77e77-2d74-44a4-b8c8-c284b02b4a34",
+      "comment": "",
+      "command": "type",
+      "target": "id=PriceReceiving_priceproduct",
+      "targets": [
+        ["id=PriceReceiving_priceproduct", "id"],
+        ["css=#PriceReceiving_priceproduct", "css:finder"],
+        ["xpath=//input[@id='PriceReceiving_priceproduct']", "xpath:attributes"],
+        ["xpath=//form[@id='PriceReceiving']/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "52142.85"
+    }, {
+      "id": "601d2ed7-f7aa-4b74-96cb-f88770e85dd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#PriceReceiving > .ant-btn > span",
+      "targets": [
+        ["css=#PriceReceiving > .ant-btn > span", "css:finder"],
+        ["xpath=//form[@id='PriceReceiving']/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a5f8bec-48a4-45b7-9e29-0d1dcc4464b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#PriceReceiving > .ant-btn > span",
+      "targets": [
+        ["css=#PriceReceiving > .ant-btn > span", "css:finder"],
+        ["xpath=//form[@id='PriceReceiving']/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "840426ad-b230-4c3f-805f-e750bce8c8c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#PriceReceiving > .ant-btn > span",
+      "targets": [
+        ["css=#PriceReceiving > .ant-btn > span", "css:finder"],
+        ["xpath=//form[@id='PriceReceiving']/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'เพิ่มสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1fb3e1-04de-4f59-ac6a-71c27db75059",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .ant-btn:nth-child(2) > span",
+      "targets": [
+        ["css=div:nth-child(2) > .ant-btn:nth-child(2) > span", "css:finder"],
+        ["xpath=//div/div/div/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ยืนยันการรับสินค้า')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "448871b1-e26d-4e12-bfe8-4fa7050abbf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-custom-content",
+      "targets": [
+        ["css=.ant-message-custom-content", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48396ad2-20b1-42fc-a02c-2b4fdf844d69",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Products added successfully')]", "xpath:innerText"]
+      ],
+      "value": "Products added successfully"
+    }]
+  }],
+  "suites": [{
+    "id": "acf92dbf-1751-4563-b509-f85db2af46a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["399d6781-2b99-4ac6-9ffa-ed13edad0e53"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/receiveproduct"],
+  "plugins": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "b6389e74-9fc2-46ea-9231-238355c95755",
+  "version": "2.0",
+  "name": "test1",
+  "url": "http://localhost:5173/zoosale/saleproduct",
+  "tests": [{
+    "id": "be42ea24-4aa4-451b-97bc-383cdc8c70be",
+    "name": "หกกหกห",
+    "commands": [{
+      "id": "6b61ed86-6f8c-4753-8eb3-9bc8b841a0dc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/saleproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e824cb7e-df32-4434-bac0-dacc9dc8af04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1767x890",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5ef3033-65f5-40c0-87dd-df522ff9a657",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .ant-btn:nth-child(1)",
+      "targets": [
+        ["css=div > .ant-btn:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'เงินสด')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b91f877-e3a9-4720-ac1e-acc86eaba18a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ไม่มีสินค้าในรายการขาย')]", "xpath:innerText"]
+      ],
+      "value": "ไม่มีสินค้าในรายการขาย"
+    }]
+  }],
+  "suites": [{
+    "id": "d10bb0af-5063-4061-852d-16b8330d755a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["be42ea24-4aa4-451b-97bc-383cdc8c70be"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/saleproduct"],
+  "plugins": []
+}

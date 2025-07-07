@@ -1,0 +1,195 @@
+{
+  "id": "8c4ccd37-fe96-489b-812a-281e2148617a",
+  "version": "2.0",
+  "name": "UATหน้า0yf=yho;k'",
+  "url": "http://localhost:5173/zoosale/manageshelfzone",
+  "tests": [{
+    "id": "df1f8b4e-642a-4309-bf3d-51d9dbb6375f",
+    "name": "AllTrue",
+    "commands": [{
+      "id": "0aaa4769-ad9b-4225-b4af-a30c678c8d31",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/manageshelfzone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d5a9766-c240-4064-a7dc-f2b65501551e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "219922a5-703e-4313-b347-e5faf080ebea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4b5c8b4-29de-4b0b-a4c4-f32ce2c27529",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24ac9891-8b1e-48a8-898d-d614d2e8cfff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db7472a9-9cd2-4fa8-bbd8-85f50dbcb25e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5702ad19-7410-4f21-a7c7-83191d8b0968",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='abbab']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abbab"
+    }, {
+      "id": "05806bed-14ac-4851-9687-8c7473a8437d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c7067c-df00-4e2b-a9ad-ae8b56f240d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(2)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'บันทึกข้อมูล')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b2c125-90c5-4559-b229-5c4fcfa49bd6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shelf zone data processed successfully')]", "xpath:innerText"]
+      ],
+      "value": "Shelf zone data processed successfully"
+    }, {
+      "id": "17fb9c37-f419-41b6-a651-f3b000b72874",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-card-body > button:nth-child(1)",
+      "targets": [
+        ["css=.ant-card-body > button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Shelf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d035513-5f14-4616-853c-b813db8c86e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e3eedf2-b634-4db1-bdcd-6c6831821130",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='abbab']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abbab"
+    }, {
+      "id": "c5985d63-3e72-407f-8d40-a78daff63d2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary",
+      "targets": [
+        ["css=.ant-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50d78fd-d1bc-4077-a2d0-26e0b0a73898",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-message-notice-content",
+      "targets": [
+        ["css=.ant-message-notice-content", "css:finder"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20ae7a4-2774-4a0d-800c-dbe455fba481",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-error > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-error > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ชื่อชั้นวางซ้ำกัน กรุณาตั้งชื่อใหม่')]", "xpath:innerText"]
+      ],
+      "value": "ชื่อชั้นวางซ้ำกัน กรุณาตั้งชื่อใหม่"
+    }]
+  }],
+  "suites": [{
+    "id": "962d8283-c321-42d8-98a6-5b599b467302",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df1f8b4e-642a-4309-bf3d-51d9dbb6375f"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/manageshelfzone"],
+  "plugins": []
+}

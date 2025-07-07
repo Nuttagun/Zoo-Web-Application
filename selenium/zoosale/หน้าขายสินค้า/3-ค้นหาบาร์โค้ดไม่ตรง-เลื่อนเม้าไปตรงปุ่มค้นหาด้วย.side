@@ -1,0 +1,92 @@
+{
+  "id": "8e030d04-0e31-463c-84d7-340b0249dd43",
+  "version": "2.0",
+  "name": "test1",
+  "url": "http://localhost:5173/zoosale/saleproduct",
+  "tests": [{
+    "id": "17a5fad3-46e1-45ac-af32-2124e4446d41",
+    "name": "test11",
+    "commands": [{
+      "id": "3bab6e2c-12fa-4a76-93bb-bd6787f3bf55",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/zoosale/saleproduct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a77e2021-a5c4-4f5d-81dd-ee73280f397e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1767x890",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2f485a2-9d13-49f3-9c38-41e0b9c66f6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/nav/span/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efea102-91ff-47e8-a79d-aecf3797d995",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-lg > span",
+      "targets": [
+        ["css=.ant-btn-lg > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/span/span/span/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31cfc7eb-54ce-4431-ab10-2386e3ea1ed2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='2333333335454545454545454']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/nav/span/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2333333335454545454545454"
+    }, {
+      "id": "742e1428-1e0c-4dff-86ef-d35bdf4245c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-lg > span",
+      "targets": [
+        ["css=.ant-btn-lg > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/span/span/span/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a34ea9-d009-4d88-8d27-4fba875c6152",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ant-message-custom-content > span:nth-child(2)",
+      "targets": [
+        ["css=.ant-message-custom-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Product not found')]", "xpath:innerText"]
+      ],
+      "value": "Product not found"
+    }]
+  }],
+  "suites": [{
+    "id": "9580fbe4-25b7-4ab0-8198-4ef9e7822c33",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["17a5fad3-46e1-45ac-af32-2124e4446d41"]
+  }],
+  "urls": ["http://localhost:5173/zoosale/saleproduct"],
+  "plugins": []
+}
