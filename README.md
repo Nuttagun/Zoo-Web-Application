@@ -1,4 +1,8 @@
 # Software Engineer Project G18 SEC2
+# Preview Project
+## เอกสาร
+
+[ดูเอกสารโปรเจกต์ (PDF)](overview-project/Project-Overview.pdf)
 
 ## สมาชิกทีม
 
